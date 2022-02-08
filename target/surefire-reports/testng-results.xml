@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="398699" started-at="2022-02-08T13:38:10 IST" finished-at="2022-02-08T13:44:49 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="NewUserPageTest.createNewUser()[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="createNewUser" class="buffaloerp.NewUserPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="NewUserPageTest.createNewUser()[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="createNewUser" class="buffaloerp.NewUserPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Command line test" duration-ms="398699" started-at="2022-02-08T13:38:10 IST" finished-at="2022-02-08T13:44:49 IST">
+      <class name="buffaloerp.BuffaloCartLoginTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.BuffaloCartLoginTest@6737fd8f]" name="OpenBrowser" is-config="true" duration-ms="40609" started-at="2022-02-08T13:38:10 IST" finished-at="2022-02-08T13:38:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:buffaloerp.BuffaloCartLoginTest@6737fd8f]" name="loginTest" duration-ms="38085" started-at="2022-02-08T13:38:51 IST" finished-at="2022-02-08T13:39:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.BuffaloCartLoginTest@6737fd8f]" name="CloseBrowser" is-config="true" duration-ms="5812" started-at="2022-02-08T13:39:29 IST" finished-at="2022-02-08T13:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.BuffaloCartLoginTest@6737fd8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:39:35 IST" finished-at="2022-02-08T13:39:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=BuffaloCartLoginTest.loginTest()[pri:0, instance:buffaloerp.BuffaloCartLoginTest@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.BuffaloCartLoginTest -->
+      <class name="buffaloerp.UploadProfilePictureTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.UploadProfilePictureTest@4d41cee]" name="OpenBrowser" is-config="true" duration-ms="9108" started-at="2022-02-08T13:43:00 IST" finished-at="2022-02-08T13:43:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="uploadPicture()[pri:0, instance:buffaloerp.UploadProfilePictureTest@4d41cee]" name="uploadPicture" duration-ms="27195" started-at="2022-02-08T13:43:09 IST" finished-at="2022-02-08T13:43:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPicture -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.UploadProfilePictureTest@4d41cee]" name="CloseBrowser" is-config="true" duration-ms="1264" started-at="2022-02-08T13:43:36 IST" finished-at="2022-02-08T13:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.UploadProfilePictureTest@4d41cee]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:43:38 IST" finished-at="2022-02-08T13:43:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadPicture status=SUCCESS method=UploadProfilePictureTest.uploadPicture()[pri:0, instance:buffaloerp.UploadProfilePictureTest@4d41cee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.UploadProfilePictureTest -->
+      <class name="buffaloerp.ProfileSectionTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.ProfileSectionTest@4b1c1ea0]" name="OpenBrowser" is-config="true" duration-ms="22070" started-at="2022-02-08T13:42:11 IST" finished-at="2022-02-08T13:42:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="profiledemo()[pri:0, instance:buffaloerp.ProfileSectionTest@4b1c1ea0]" name="profiledemo" duration-ms="25808" started-at="2022-02-08T13:42:33 IST" finished-at="2022-02-08T13:42:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profiledemo -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.ProfileSectionTest@4b1c1ea0]" name="CloseBrowser" is-config="true" duration-ms="818" started-at="2022-02-08T13:42:59 IST" finished-at="2022-02-08T13:43:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.ProfileSectionTest@4b1c1ea0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:43:00 IST" finished-at="2022-02-08T13:43:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profiledemo status=SUCCESS method=ProfileSectionTest.profiledemo()[pri:0, instance:buffaloerp.ProfileSectionTest@4b1c1ea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.ProfileSectionTest -->
+      <class name="buffaloerp.FileManagerTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.FileManagerTest@15d0c81b]" name="OpenBrowser" is-config="true" duration-ms="9356" started-at="2022-02-08T13:40:56 IST" finished-at="2022-02-08T13:41:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="createFile()[pri:0, instance:buffaloerp.FileManagerTest@15d0c81b]" name="createFile" duration-ms="24676" started-at="2022-02-08T13:41:05 IST" finished-at="2022-02-08T13:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFile -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.FileManagerTest@15d0c81b]" name="CloseBrowser" is-config="true" duration-ms="779" started-at="2022-02-08T13:41:30 IST" finished-at="2022-02-08T13:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.FileManagerTest@15d0c81b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:41:30 IST" finished-at="2022-02-08T13:41:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createFile status=SUCCESS method=FileManagerTest.createFile()[pri:0, instance:buffaloerp.FileManagerTest@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.FileManagerTest -->
+      <class name="buffaloerp.VerifyUserPageTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.VerifyUserPageTest@2833cc44]" name="OpenBrowser" is-config="true" duration-ms="7339" started-at="2022-02-08T13:44:16 IST" finished-at="2022-02-08T13:44:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="verifyUserName()[pri:0, instance:buffaloerp.VerifyUserPageTest@2833cc44]" name="verifyUserName" duration-ms="24753" started-at="2022-02-08T13:44:23 IST" finished-at="2022-02-08T13:44:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserName -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.VerifyUserPageTest@2833cc44]" name="CloseBrowser" is-config="true" duration-ms="701" started-at="2022-02-08T13:44:48 IST" finished-at="2022-02-08T13:44:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.VerifyUserPageTest@2833cc44]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:44:49 IST" finished-at="2022-02-08T13:44:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserName status=SUCCESS method=VerifyUserPageTest.verifyUserName()[pri:0, instance:buffaloerp.VerifyUserPageTest@2833cc44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.VerifyUserPageTest -->
+      <class name="buffaloerp.VerifyBugTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.VerifyBugTest@3712b94]" name="OpenBrowser" is-config="true" duration-ms="10472" started-at="2022-02-08T13:43:38 IST" finished-at="2022-02-08T13:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="verifyBug()[pri:0, instance:buffaloerp.VerifyBugTest@3712b94]" name="verifyBug" duration-ms="27263" started-at="2022-02-08T13:43:48 IST" finished-at="2022-02-08T13:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBug -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.VerifyBugTest@3712b94]" name="CloseBrowser" is-config="true" duration-ms="776" started-at="2022-02-08T13:44:15 IST" finished-at="2022-02-08T13:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.VerifyBugTest@3712b94]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:44:16 IST" finished-at="2022-02-08T13:44:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBug status=SUCCESS method=VerifyBugTest.verifyBug()[pri:0, instance:buffaloerp.VerifyBugTest@3712b94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.VerifyBugTest -->
+      <class name="buffaloerp.BugTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.BugTest@74650e52]" name="OpenBrowser" is-config="true" duration-ms="13269" started-at="2022-02-08T13:39:35 IST" finished-at="2022-02-08T13:39:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="createBug()[pri:0, instance:buffaloerp.BugTest@74650e52]" name="createBug" duration-ms="66067" started-at="2022-02-08T13:39:48 IST" finished-at="2022-02-08T13:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.BugTest@74650e52]" name="CloseBrowser" is-config="true" duration-ms="1457" started-at="2022-02-08T13:40:54 IST" finished-at="2022-02-08T13:40:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.BugTest@74650e52]" name="afterMethod" is-config="true" duration-ms="6" started-at="2022-02-08T13:40:56 IST" finished-at="2022-02-08T13:40:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBug status=SUCCESS method=BugTest.createBug()[pri:0, instance:buffaloerp.BugTest@74650e52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.BugTest -->
+      <class name="buffaloerp.SampleTest">
+        <test-method status="FAIL" signature="sampletest()[pri:0, instance:buffaloerp.SampleTest@17579e0f]" name="sampletest" duration-ms="0" started-at="2022-02-08T13:43:00 IST" finished-at="2022-02-08T13:43:00 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at buffaloerp.SampleTest.sampletest(SampleTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletest -->
+      </class> <!-- buffaloerp.SampleTest -->
+      <class name="buffaloerp.NewUserPageTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="OpenBrowser" is-config="true" duration-ms="7399" started-at="2022-02-08T13:41:30 IST" finished-at="2022-02-08T13:41:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="createNewUser()[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="createNewUser" duration-ms="32369" started-at="2022-02-08T13:41:38 IST" finished-at="2022-02-08T13:42:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="CloseBrowser" is-config="true" duration-ms="1115" started-at="2022-02-08T13:42:10 IST" finished-at="2022-02-08T13:42:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-08T13:42:11 IST" finished-at="2022-02-08T13:42:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewUser status=SUCCESS method=NewUserPageTest.createNewUser()[pri:0, instance:buffaloerp.NewUserPageTest@6acdbdf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- buffaloerp.NewUserPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

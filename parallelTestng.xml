@@ -1,0 +1,22 @@
+<suite name = "Suite" thread-count="5" parallel="tests">
+    <test thread-count="5" name ="Test" parallel ="methods">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name ="buffaloerp.NewUserPageTest"> </class>
+             <class name ="buffaloerp.BugTest"></class>
+            <class name ="buffaloerp.VerifyBugTest"></class>
+            <class name ="buffaloerp.FileManagerTest"></class>
+            <class name ="buffaloerp.VerifyUserPageTest"></class>
+        </classes>
+    </test>>
+   <!-- <test thread-count="5" name ="Test1" parallel ="methods">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name ="buffaloerp.NewUserPageTest"> </class>
+            <class name ="buffaloerp.BugTest"></class>
+            <class name ="buffaloerp.VerifyBugTest"></class>
+            <class name ="buffaloerp.FileManagerTest"></class>
+            <class name ="buffaloerp.VerifyUserPageTest"></class>
+        </classes>
+    </test>-->
+</suite>
